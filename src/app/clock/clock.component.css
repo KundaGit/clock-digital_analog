@@ -2,7 +2,7 @@
     font-family: "Poppins",sans-serif;
 }
 .black-border{
-    border:1px solid black;
+    border:1px solid rgb(197, 45, 45);
 };
 
 * {
@@ -13,7 +13,7 @@
 }
 .clock-wrapper{
     width: 500px;
-    height: 500px;
+    height: 600px;
     margin:5rem auto;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    background-color: #282828;
+    background-color: #282828
 }
 .clock-analog{
   
@@ -126,5 +126,21 @@ color: yellow;
 .clock-digital .month,
 .clock-digital .day{
     color: red;
+}
+
+h1{
+    text-align: center;
+    background-color: pink;
+}
+h2{
+    text-align: center;
+    background-color: #808080;
+}
+.smart{
+text-align: center;
+/* background-color: pink; */
+ruby-align: center;
+right: 38%;
+bottom:320px
 }
 
